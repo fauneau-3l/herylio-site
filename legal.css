@@ -1,0 +1,22 @@
+.top nav a:hover,.back-link:hover,footer a:hover{color:var(--copper)}
+.menu{cursor:pointer}
+.help-link{margin:30px auto 0;color:var(--muted)}
+.help-link a,.text-link,.legal-card a{color:var(--copper);font-weight:700}
+.text-link{display:inline-block;margin-top:8px}
+footer>div:nth-child(2){flex-wrap:wrap;justify-content:center}
+footer [aria-current=page]{color:var(--gold)}
+.back-link{font-size:14px;font-weight:700}
+.legal-page{background:var(--cream)}
+.legal-main{width:min(920px,calc(100% - 40px));margin:0 auto;padding:70px 0 90px}
+.legal-heading{text-align:center;margin-bottom:38px}
+.legal-heading h1{font-family:Georgia,serif;font-size:clamp(2.5rem,6vw,4.6rem);line-height:1;margin:0 0 16px;color:var(--navy2)}
+.legal-heading>p:last-child{color:var(--muted)}
+.legal-card,.release-card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:clamp(24px,4vw,38px);margin-bottom:18px;box-shadow:0 8px 25px #20395408}
+.legal-card h2,.release-card h2{font-size:clamp(1.35rem,3vw,2rem);margin-bottom:18px}
+.legal-card p{line-height:1.75;color:#566a80}
+.legal-card p:last-child{margin-bottom:0}
+.release-label{display:inline-block;padding:7px 12px;margin-bottom:18px;border-radius:20px;background:#f4e6ce;color:var(--copper);font-size:12px;font-weight:800;letter-spacing:.06em}
+.release-card ul{margin:0;padding:0;list-style:none;display:grid;gap:13px}
+.release-card li{position:relative;padding-left:30px;line-height:1.55;color:#566a80}
+.release-card li::before{content:'✓';position:absolute;left:0;top:0;color:var(--copper);font-weight:900}
+@media(max-width:520px){.legal-main{width:min(100% - 28px,920px);padding:45px 0 65px}.back-link{font-size:12px}.legal-page footer{grid-template-columns:1fr}.legal-page footer>div:nth-child(2){display:grid;gap:12px}}
