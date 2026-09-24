@@ -21,3 +21,25 @@
 .document-frame img{display:block;width:100%;height:auto}
 @media(max-width:900px){.feature-story,.feature-story.reverse{grid-template-columns:1fr;gap:38px}.feature-story.reverse .feature-copy,.feature-story.reverse>.screen-frame,.feature-story.reverse>.screen-pair,.feature-story.reverse>.document-pair{order:initial}.feature-copy{max-width:680px}.screen-frame{width:min(360px,88%)}.screen-pair,.document-pair{max-width:620px;margin:auto}}
 @media(max-width:560px){.feature-showcase{padding:70px 14px}.feature-showcase>.section-head{margin-bottom:42px;padding:0 8px}.feature-list{gap:20px}.feature-story{padding:28px 18px;border-radius:24px}.feature-copy>p:last-child{font-size:15px}.screen-frame{width:min(330px,92%)}.screen-pair,.document-pair{gap:8px}.screen-pair .screen-frame{width:49%;border-radius:17px}.document-frame{width:49%}}
+
+.premium{padding:100px max(6vw,30px);background:linear-gradient(135deg,#17324f 0,#243e60 68%,#81501f 150%);color:#fff}
+.premium-intro{max-width:780px;margin:0 auto 50px;text-align:center}
+.premium-intro h2{color:#fff}
+.premium-intro>p:last-child{font-size:17px;line-height:1.7;color:#d5dfe8}
+.premium-content{display:grid;grid-template-columns:1.35fr .65fr;gap:34px;max-width:1120px;margin:0 auto;align-items:stretch}
+.premium-features,.price-panel{padding:clamp(28px,4vw,44px);border:1px solid #ffffff24;border-radius:28px;background:#ffffff0d;backdrop-filter:blur(8px)}
+.premium-features h3{font-family:Georgia,serif;font-size:1.8rem;margin-bottom:26px;color:#fff}
+.premium-features ul{display:grid;grid-template-columns:1fr 1fr;gap:18px 26px;margin:0;padding:0;list-style:none}
+.premium-features li{position:relative;padding-left:28px;line-height:1.5;color:#e3eaf0}
+.premium-features li::before{content:'✓';position:absolute;left:0;color:var(--gold);font-weight:900}
+.price-panel{background:#fff;color:var(--navy2);box-shadow:0 24px 60px #08172540}
+.price-title{font-family:Georgia,serif;font-size:1.7rem;font-weight:700;text-align:center;margin-bottom:24px}
+.store-price{display:flex;align-items:center;gap:16px;padding:17px 18px;margin-bottom:13px;border:1px solid var(--line);border-radius:17px;background:#faf7f1}
+.store-icon{display:grid;place-items:center;width:44px;height:44px;border-radius:13px;background:#d9eadc;color:#2d7540;font-size:18px}
+.store-icon.apple{background:#e8ebef;color:#26384c}
+.store-price div{display:grid;gap:4px}
+.store-price small{color:var(--muted)}
+.store-price strong{font-size:1.65rem;color:var(--navy2)}
+.price-note{margin:18px 0 0;font-size:12px;line-height:1.5;text-align:center;color:var(--muted)}
+@media(max-width:850px){.premium-content{grid-template-columns:1fr}.premium-features ul{grid-template-columns:1fr}.price-panel{max-width:520px;width:100%;margin:auto}}
+@media(max-width:520px){.premium{padding:70px 18px}.premium-intro{margin-bottom:34px}.premium-features,.price-panel{padding:26px 20px;border-radius:22px}}
