@@ -1,0 +1,62 @@
+0 HEAD
+1 SOUR HERYLIO
+2 NAME Herylio demonstration
+2 VERS 1.0
+1 DEST ANY
+1 DATE 25 SEP 2026
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+1 LANG French
+0 @I1@ INDI
+1 NAME Camille /MARTIN/
+1 SEX F
+1 BIRT
+2 DATE 12 MAR 1985
+2 PLAC Nantes, Loire-Atlantique, France
+1 FAMS @F1@
+1 FAMC @F2@
+0 @I2@ INDI
+1 NAME Julien /BERNARD/
+1 SEX M
+1 BIRT
+2 DATE 7 JUL 1983
+2 PLAC Angers, Maine-et-Loire, France
+1 FAMS @F1@
+0 @I3@ INDI
+1 NAME Louise /BERNARD/
+1 SEX F
+1 BIRT
+2 DATE 19 MAY 2012
+2 PLAC La Roche-sur-Yon, Vendée, France
+1 FAMC @F1@
+0 @I4@ INDI
+1 NAME André /MARTIN/
+1 SEX M
+1 BIRT
+2 DATE 4 FEB 1954
+2 PLAC Cholet, Maine-et-Loire, France
+1 FAMS @F2@
+0 @I5@ INDI
+1 NAME Marie /DUPONT/
+1 SEX F
+1 BIRT
+2 DATE 23 SEP 1957
+2 PLAC Clisson, Loire-Atlantique, France
+1 FAMS @F2@
+0 @F1@ FAM
+1 HUSB @I2@
+1 WIFE @I1@
+1 CHIL @I3@
+1 MARR
+2 DATE 21 JUN 2008
+2 PLAC Nantes, Loire-Atlantique, France
+0 @F2@ FAM
+1 HUSB @I4@
+1 WIFE @I5@
+1 CHIL @I1@
+1 MARR
+2 DATE 16 AUG 1980
+2 PLAC Clisson, Loire-Atlantique, France
+0 TRLR

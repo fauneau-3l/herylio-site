@@ -21,4 +21,18 @@ footer [aria-current=page]{color:var(--gold)}
 .release-card ul{margin:0;padding:0;list-style:none;display:grid;gap:13px}
 .release-card li{position:relative;padding-left:30px;line-height:1.55;color:#566a80}
 .release-card li::before{content:'✓';position:absolute;left:0;top:0;color:var(--copper);font-weight:900}
+.section-heading{margin:58px 0 25px}
+.section-heading h2{font-family:Georgia,serif;font-size:clamp(2rem,5vw,3.5rem);color:var(--navy2);margin:0}
+.faq-item{background:#fff;border:1px solid var(--line);border-radius:16px;margin-bottom:12px;box-shadow:0 8px 25px #20395408;overflow:hidden}
+.faq-item summary{cursor:pointer;padding:20px 24px;font-weight:800;color:var(--navy2);list-style:none;display:flex;justify-content:space-between;gap:20px}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:'+';color:var(--copper);font-size:22px;line-height:1}
+.faq-item[open] summary::after{content:'−'}
+.faq-item p{margin:0;padding:0 24px 22px;color:#566a80;line-height:1.7}
+.support-card{margin-top:35px;border-left:4px solid var(--copper)}
+.store-status{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:18px}
+.store-status>div{display:grid;gap:7px;padding:26px;border:1px solid var(--line);border-radius:18px;background:var(--navy2);color:#fff}
+.store-status strong{font-size:22px;color:var(--gold)}
+.store-status span{color:#dce4eb;line-height:1.5}
 @media(max-width:520px){.legal-main{width:min(100% - 28px,920px);padding:45px 0 65px}.back-link{font-size:12px}.legal-page footer{grid-template-columns:1fr}.legal-page footer>div:nth-child(2){display:grid;gap:12px}}
+@media(max-width:650px){.store-status{grid-template-columns:1fr}}
